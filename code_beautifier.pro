@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        code_beautifier.cpp
+        code_beautifier.cpp \
+    language/javascript.cpp
 
-HEADERS  += code_beautifier.h
+HEADERS  += code_beautifier.h \
+    language/javascript.h
 
 FORMS    += code_beautifier.ui
